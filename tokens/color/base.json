@@ -34,14 +34,14 @@
         "description": "based on HUE value of $base.color.brand"
       },
       "secondary": {
-        "value": "hsl({base.brand},50,46)",
+        "value": "hsl({color.base.brand},50,46)",
         "type": "color",
         "description": "based on HUE value of $base.color.brand"
       }
     },
     "feedback": {
       "success": {
-        "value": "hsl({base.success},95,66)",
+        "value": "hsl({color.base.success},95,66)",
         "type": "color",
         "description": "based on HUE value of $base.color.success"
       }
