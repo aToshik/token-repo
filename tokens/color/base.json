@@ -1,50 +1,48 @@
 {
   "color": {
-    "base": {
-      "color": {
-        "brand": {
-          "value": "216",
-          "type": "other",
-          "description": "HUE(HSL)"
-        },
-        "white": {
-          "value": "0,0,100",
-          "type": "other",
-          "description": "HSL"
-        },
-        "success": {
-          "value": "163",
-          "type": "other",
-          "description": "HUE(HSL)"
-        },
-        "warning": {
-          "value": "42",
-          "type": "other",
-          "description": "HUE(HSL)"
-        },
-        "critical": {
-          "value": "330",
-          "type": "other",
-          "description": "HUE(HSL)"
-        }
+    "base-color": {
+      "brand": {
+        "value": "216",
+        "type": "other",
+        "description": "HUE(HSL)"
+      },
+      "white": {
+        "value": "0,0,100",
+        "type": "other",
+        "description": "HSL"
+      },
+      "success": {
+        "value": "163",
+        "type": "other",
+        "description": "HUE(HSL)"
+      },
+      "warning": {
+        "value": "42",
+        "type": "other",
+        "description": "HUE(HSL)"
+      },
+      "critical": {
+        "value": "330",
+        "type": "other",
+        "description": "HUE(HSL)"
       }
     },
     "color": {
       "brand": {
         "primary": {
-          "value": "hsl({base.color.brand},95,66)",
+          "value": "hsl({base-color.brand},95,66)",
           "type": "color",
           "description": "based on HUE value of $base.color.brand"
         },
         "secondary": {
-          "value": "hsl({base.color.brand},50,46)",
+          "value": "hsl({base-color.brand},50,46)",
           "type": "color",
           "description": "based on HUE value of $base.color.brand"
         }
       },
       "feedback": {
         "success": {
-          "value": "hsl({base.color.success},95,66)",
+          "value": "hsl({base-color.success},95,66)",
           "type": "color",
           "description": "based on HUE value of $base.color.success"
         }
