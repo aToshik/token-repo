@@ -22,6 +22,19 @@
       "green": {
         "value": "#00FF00",
         "type": "color"
+      },
+      "primary": {
+        "value": "hsl({color.base.brand},68,50)",
+        "type": "color"
+      }
+    },
+    "color": {
+      "base": {
+        "brand": {
+          "value": "227",
+          "type": "other",
+          "description": "HUE(HSL)"
+        }
       }
     }
   },
