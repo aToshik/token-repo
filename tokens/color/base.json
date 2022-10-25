@@ -24,11 +24,11 @@
         "type": "color"
       },
       "primary": {
-        "value": "hsl({color.base.brand},68,50)",
+        "value": "hsl({color.core.base.brand},68,50)",
         "type": "color"
       }
     },
-    "color": {
+    "core": {
       "base": {
         "brand": {
           "value": "227",

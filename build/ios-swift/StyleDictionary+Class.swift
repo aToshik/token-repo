@@ -4,7 +4,7 @@
 //
 
 // Do not edit directly
-// Generated on Tue, 25 Oct 2022 13:37:51 GMT
+// Generated on Tue, 25 Oct 2022 14:35:55 GMT
 
 
 import UIKit
@@ -14,7 +14,9 @@ public class StyleDictionaryClass {
     public static let colorBaseGrayLight = UIColor(red: 0.800, green: 0.800, blue: 0.800, alpha: 1)
     public static let colorBaseGrayMedium = UIColor(red: 0.600, green: 0.600, blue: 0.600, alpha: 1)
     public static let colorBaseGreen = UIColor(red: 0.000, green: 1.000, blue: 0.000, alpha: 1)
+    public static let colorBasePrimary = hsl(UIColor(red: 0.133, green: 0.133, blue: 0.467, alpha: 1),68,50)
     public static let colorBaseRed = UIColor(red: 1.000, green: 0.000, blue: 0.000, alpha: 1)
+    public static let colorCoreBaseBrand = UIColor(red: 0.133, green: 0.133, blue: 0.467, alpha: 1)
     public static let colorFontBase = UIColor(red: 1.000, green: 0.000, blue: 0.000, alpha: 1)
     public static let colorFontSecondary = UIColor(red: 0.000, green: 1.000, blue: 0.000, alpha: 1)
     public static let colorFontTertiary = UIColor(red: 0.800, green: 0.800, blue: 0.800, alpha: 1)
