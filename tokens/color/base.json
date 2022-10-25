@@ -29,7 +29,7 @@
     },
     "brand": {
       "primary": {
-        "value": "hsl({base.brand},95,66)",
+        "value": "hsl({color.base.brand},95,66)",
         "type": "color",
         "description": "based on HUE value of $base.color.brand"
       },
