@@ -56,9 +56,9 @@
         "type": "color"
       }
     },
-    "status": {
+    "feedback": {
       "success": {
-        "value": "#46e1b6",
+        "value": "#47E1B5",
         "type": "color"
       },
       "success-secondary": {
