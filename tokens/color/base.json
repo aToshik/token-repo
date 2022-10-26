@@ -141,10 +141,47 @@
       }
     }
   },
+  "spacing": {
+    "spacing": {
+      "base": {
+        "value": "8",
+        "type": "spacing"
+      },
+      "xx-small": {
+        "value": "$spacing.base / 2",
+        "type": "spacing"
+      },
+      "x-small": {
+        "value": "$spacing.base",
+        "type": "spacing"
+      },
+      "small": {
+        "value": "$spacing.base  * 1.5",
+        "type": "spacing"
+      },
+      "medium": {
+        "value": "$spacing.base * 2",
+        "type": "spacing"
+      },
+      "large": {
+        "value": "$spacing.base * 3",
+        "type": "spacing"
+      },
+      "x-large": {
+        "value": "$spacing.base * 4",
+        "type": "spacing"
+      },
+      "xx-large": {
+        "value": "$spacing.base * 5",
+        "type": "spacing"
+      }
+    }
+  },
   "$themes": [],
   "$metadata": {
     "tokenSetOrder": [
-      "color"
+      "color",
+      "spacing"
     ]
   }
 }
